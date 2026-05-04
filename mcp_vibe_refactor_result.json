@@ -1,0 +1,14 @@
+[
+  {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "[VIBE REFACTOR SUGGEST] PromptForm.tsx \u00e2\u20ac\u201d 139 linhas\n\n1 oportunidade(s) de refatoracao identificada(s)\n\n\n## REFATORACAO #1 \u00e2\u20ac\u201d \u00f0\u0178\u201d\u00b4 ALTA\n**Problema:** A fun\u00c3\u00a7\u00c3\u00a3o handleSubmit tem aproximadamente 113 linhas. Funcoes longas sao dificeis de testar e entender.\n**Solucao:** Quebre handleSubmit em funcoes menores com nomes descritivos:\n  Antes: handleSubmit() com toda a logica\n  Depois: validateInput() + processData() + formatOutput()\n**Impacto:** Cada fun\u00c3\u00a7\u00c3\u00a3o menor pode ser testada isoladamente"
+        }
+      ]
+    },
+    "jsonrpc": "2.0",
+    "id": 1
+  }
+]
